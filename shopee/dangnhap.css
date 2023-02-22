@@ -1,0 +1,131 @@
+.log {
+    
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    display:flex;
+    background-color: rgba(0,0,0,0.4);
+    display:none;
+}
+.log.open {
+    display:flex;
+}
+.modal_overlay_log {
+    position:absolute;
+    width:100%;
+    height:100%;
+    /* dùng rgba để chọn mấy màu ko bt vd màu đen nhìn xuyên qua như trên */
+
+}
+.auth-form_close_log {
+    display: flex;
+    justify-content: flex-end; 
+}
+.auth-form_close-icon_log {
+    cursor:pointer;
+    padding:10px;
+    margin-right: 2px;
+}
+.auth-form_close-icon_log:hover {
+    background-color:#e8dddd;
+}
+.modal_overlay_log {
+    display: none;
+}
+.modal-inter_log {
+    margin:16px;
+    padding:16px;
+}
+.modal_body_log {
+    width:400px;
+    height:400px;
+    background-color: white ;
+    margin:auto;
+    display:flex;
+}
+.auth-form_log {
+    height:100%;
+    position:static;
+}
+
+.auth-form_container_log {
+    padding:0 32px;
+}
+
+
+
+.abc_log {
+    margin:8px;
+}
+.auth-form_form_log {
+    margin:8px;
+    position:fixed;
+    display:flex;
+}
+.auth-form_socials_log {
+    width:402px;
+    height:73px;
+    position:relative;
+    bottom:0;
+    margin-top: 45px;
+    text-align:center;
+}
+.auth-form_header_log {
+    margin:25px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.auth-form_input_log {
+    width:100%;
+    height:30px;
+}
+
+.auth-form_controls_log {
+    display: flex;
+    justify-content: flex-end;
+
+}
+button.btn_log {
+    margin: 0 5px;
+    padding: 3px 25px;
+}
+button.btn_log {
+    background-color: white;
+    border: none;
+}
+button.btn_log.btn-primary_log {
+    background-color: rgb(255 89 0 / 74%);
+
+}
+a.auth-form_policy-link_log {
+    color: red;
+}
+a.btn_log.btn-with-icon_log {
+    margin: 0 8px;
+    padding: 3px 15px;
+}
+button.btn_log:hover {
+    background-color: #e8dddd;
+}
+span.auth-form_switch-btn_log {
+    color: rgb(255 89 0 / 74%);
+}
+
+.auth-form_help-separate {
+    display:inline;
+    height:36px;
+    border-left:1px solid black;
+}
+.auth-form_help {
+    margin: 20px 0 50px 0;
+}
+a.btn {
+    margin:20px;
+}
+a.btn:hover {
+    background-color: #af9f9f;
+}
